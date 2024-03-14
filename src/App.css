@@ -1,9 +1,23 @@
 /* Add styling for your page here */
 
 .App {
+  padding: 40px;
 
 }
 
-.BakeryItem {
-  
+.bakeryItem {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: bisque;
+  border: 1px solid black;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+p {
+  margin-top: 0;
 }
